@@ -8,14 +8,14 @@ const router = Router()
 router.use(cors())
 
 // Routes
-// router.get('/', handler.getFrontpage)
-// router.get('/api/case/:id', handler.getCaseMetadata)
-// router.get('/api/document/', handler.getDocumentTypes)
+router.get('/*', handler.getFrontpage)
+// router.post('/api/case/:id', handler.getCaseMetadata)
+// router.post('/api/document/', handler.getDocumentTypes)
 router.post('/api/document/:id', handler.getDocumentMetadata)
 
-// router.get('/api/contactperson', handler.getContactPersonMetadata)
-// router.get('/api/privateperson', handler.getPrivatePersonMetadata)
-// router.get('/api/enterprise', handler.getEnterpriseMetadata)
+// router.post('/api/contactperson', handler.getContactPersonMetadata)
+// router.post('/api/privateperson', handler.getPrivatePersonMetadata)
+// router.post('/api/enterprise', handler.getEnterpriseMetadata)
 
 module.exports = (request, response) => {
   router(request, response, finalhandler(request, response))
