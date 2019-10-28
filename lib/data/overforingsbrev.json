@@ -1,0 +1,21 @@
+{
+  "Title": "Overføringsbrev",
+  "UnofficialTitle": "Overføringsbrev - ${employee.name}",
+  "AccessCode": 13,
+  "Paragraph": "Offl §13 jfr Fvl §13.1",
+  "AccessGroup": "Alle",
+  "Status": "J",
+  "Category": "Dokument ut",
+  "NoarkClassificationCode": "B31",
+  "ResponsiblePersonEmail": "${manager.name}",
+  "Contacts": [
+    {
+      "ReferenceNumber": "821227062",
+      "Role": "Avsender"
+    },
+    {
+      "ReferenceNumber": "${employee.id}",
+      "Role": "Mottaker"
+    }
+  ]
+}
