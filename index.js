@@ -9,9 +9,9 @@ router.use(cors())
 
 // Routes
 router.get('/', handler.getFrontpage)
-router.get('/api/case/:id', handler.getCaseMetadata)
-router.get('/api/document/', handler.getDocumentTypes)
-router.get('/api/document/:id', handler.getDocumentMetadata)
+router.get('/api/case', handler.getCaseMetadata)
+router.get('/api/document', handler.getDocumentTypes)
+router.get('/api/document/:type', handler.getDocumentMetadata)
 
 router.get('/api/contactperson', handler.getContactPersonMetadata)
 router.get('/api/privateperson', handler.getPrivatePersonMetadata)
