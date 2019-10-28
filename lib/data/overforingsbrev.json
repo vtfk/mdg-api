@@ -7,7 +7,7 @@
   "Status": "J",
   "Category": "Dokument ut",
   "NoarkClassificationCode": "B31",
-  "ResponsiblePersonEmail": "${manager.name}",
+  "ResponsiblePersonEmail": "${manager.email}",
   "Contacts": [
     {
       "ReferenceNumber": "821227062",

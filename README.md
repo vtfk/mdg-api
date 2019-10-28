@@ -25,7 +25,7 @@ Output:
     "fields": [
       "employee.name",
       "employee.id"
-      "manager.name",
+      "manager.email",
     ],
     "template": {
       ...
@@ -39,7 +39,7 @@ Output:
 
 #### Example
 ```
-$ curl -H "Accept: application/json" http://localhost:3000/api/document/overforingsbrev --data '{ "manager": { "name": "Ola Nordmann" }, "employee": { "id": "26118600000", "name": "Kari Nordmann" } }'
+$ curl -H "Accept: application/json" http://localhost:3000/api/document/overforingsbrev --data '{ "manager": { "name": "Ola Nordmann", "email": "ola.nordmann@vtfk.no" }, "employee": { "id": "26118600000", "name": "Kari Nordmann" } }'
 ```
 
 Output:
@@ -53,7 +53,7 @@ Output:
   "Status": "J",
   "Category": "Dokument ut",
   "NoarkClassificationCode": "B31",
-  "ResponsiblePersonEmail": "Ola Nordmann",
+  "ResponsiblePersonEmail": "ola.nordmann@vtfk.no",
   "Contacts": [
     {
       "ReferenceNumber": "821227062",
