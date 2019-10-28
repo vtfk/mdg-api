@@ -3,7 +3,7 @@
 ## Metadata templates
 The different type templates is stored [here](https://github.com/vtfk/mdg-api/tree/master/lib/data) and uses es6-templating to specify variables.
 
-  - [Overføringsbrev](https://github.com/vtfk/mdg-api/blob/master/lib/data/overforingsbrev.json)
+  - [overforingsbrev](https://github.com/vtfk/mdg-api/blob/master/lib/data/overforingsbrev.json)
   - ...
 
 
@@ -20,7 +20,17 @@ $ curl http://localhost:3000/api/document
 Output:
 ```json
 [
-  "overforingsbrev"
+  {
+    "name": "overforingsbrev",
+    "fields": [
+      "employee.name",
+      "employee.id"
+      "manager.name",
+    ],
+    "template": {
+      ...
+    }
+  }
 ]
 ```
 
