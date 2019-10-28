@@ -1,0 +1,26 @@
+{
+  "name": "mdg-api",
+  "version": "0.1.0",
+  "description": "Metadatagenerator API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtfk/mdg-api.git"
+  },
+  "keywords": [
+    "vtfk",
+    "metadata"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtfk/mdg-api/issues"
+  },
+  "homepage": "https://github.com/vtfk/mdg-api#readme",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}
