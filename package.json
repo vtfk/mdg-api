@@ -15,7 +15,11 @@
     "vtfk",
     "metadata"
   ],
-  "author": "",
+  "author": {
+    "name": "Mats Andreassen",
+    "email": "mats.andreassen@vtfk.no",
+    "url": "https://github.com/matsand"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vtfk/mdg-api/issues"
