@@ -27,7 +27,7 @@
   "homepage": "https://github.com/vtfk/mdg-api#readme",
   "devDependencies": {
     "micro-dev": "3.0.0",
-    "standard": "14.3.1"
+    "standard": "15.0.0"
   },
   "dependencies": {
     "cors": "2.8.5",
